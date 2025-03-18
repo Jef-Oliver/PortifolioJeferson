@@ -36,7 +36,7 @@ function Home2() {
               Gosto de explorar novas tecnologias e estou sempre em busca de desafios que me permitam crescer profissionalmente.
               <br />
               <br />
-              Sou formado em <b className="purple">Sistemas para Internet</b>, tive uma base sólida em <b className="purple">Java, Spring Boot, HTML, CSS, JavaScript e desenvolvimento mobile. </b> 
+              Formado em <b className="purple">Sistemas para Internet</b>, tive uma base sólida em <b className="purple">Java, Spring Boot, HTML, CSS, JavaScript e desenvolvimento mobile. </b> 
               Durante minha formação, tive contato com projetos práticos e metodologias modernas, aprimorando minha capacidade de solucionar problemas e construir sistemas eficientes.
             </p>
             <br />
