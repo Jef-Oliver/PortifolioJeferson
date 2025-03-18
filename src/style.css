@@ -309,13 +309,18 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 20em !important;
+}
+
+.myAvtar img {
+  width: 500px; /* Ajuste o valor conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 50%; /* Mantém o formato arredondado, se desejar */
 }
 
 @media (max-width: 767px) {
-  .myAvtar {
-    padding-top: 2em !important;
-    padding-bottom: 2em !important;
+  .myAvtar img {
+    width: 200px; /* Ajuste o valor conforme necessário para dispositivos móveis */
   }
 }
 
