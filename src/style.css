@@ -261,6 +261,7 @@ button:focus {
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
+  background-size: contain; /* Diminui a imagem para que ela fique inteira */
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
@@ -322,6 +323,40 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+}
+.home-row {
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: space-between; /* Mantém espaçamento correto */
+}
+
+/* CONTAINER DA IMAGEM */
+.home-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Garante que a imagem vá para a esquerda */
+  width: auto; /* Reduz a largura para não ocupar toda a linha */
+  height: 100%;
+  position: relative;
+  left: -300px; /* Ajuste este valor para mover mais */
+}
+
+/* ENVOLVE A IMAGEM */
+.home-image-wrapper {
+  display: flex;
+  justify-content: flex-start; /* Alinha a imagem à esquerda */
+  align-items: center;
+  width: 100%; /* Garante que ocupa todo o espaço disponível */
+  height: auto;
+  position: relative;
+}
+
+/* IMAGEM EM SI */
+.home-main-img {
+  max-width: 83%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 50%; /* Mantém o formato arredondado */
 }
 
 .home-about-description {
@@ -472,6 +507,11 @@ html, body {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 450px; /* Ajuste conforme necessário */
 }
 
 .project-card-view {
@@ -487,6 +527,11 @@ html, body {
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px #1E90FF !important;
 }
+/* Ajustar apenas a imagem e o título do Jogo RPG - Python */
+.project-card:nth-child(3) .project-card-view {
+  margin-top: 250px; /* Aumente esse valor se precisar descer mais */
+}
+
 
 .blog-card {
   padding-top: 50px !important;

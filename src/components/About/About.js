@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.svg";
+import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -21,18 +21,24 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+            <h1 style={{ fontSize: "4.1em", paddingBottom: "20px" }}>
               Sobre  <strong className="purple">mim</strong>
             </h1>
             <Aboutcard />
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ paddingTop: "10px", paddingBottom: "40px" }}
             className="about-img"
           >
             {/* Imagem agora com lazy loading nativo */}
-            <img src={laptopImg} alt="about" className="img-fluid" loading="lazy" />
+            <img
+              src={laptopImg}
+              alt="about"
+              className="img-fluid"
+              style={{ width: "120%", maxWidth: "800px", height: "auto" }} // Aumentando tamanho
+              loading="lazy"
+            />
           </Col>
         </Row>
         <h1 className="project-heading">

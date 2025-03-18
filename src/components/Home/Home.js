@@ -12,9 +12,10 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
-          <Row>
+          <Row className="home-row">
+            {/* DESCRIÇÃO */}
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+              <h1 style={{ paddingBottom: 19 }} className="heading">
                 Olá, tudo bem ?{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
@@ -26,22 +27,23 @@ function Home() {
                 <strong className="main-name"> Jeferson Oliveira</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ padding: 70, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <Tilt>
-                {/* Imagem com lazy loading nativo */}
-                <img
-                  src={homeLogo}
-                  alt="home pic"
-                  className="img-fluid"
-                  style={{ maxHeight: "450px" }}
-                  loading="lazy"
-                />
-              </Tilt>
+            {/* NOVO CONTAINER DA IMAGEM */}
+            <Col md={5} className="home-image-container">
+              <Container className="home-image-wrapper">
+                <Tilt>
+                  <img
+                    src={homeLogo}
+                    alt="home pic"
+                    className="home-main-img"
+                    loading="lazy"
+                  />
+                </Tilt>
+              </Container>
             </Col>
           </Row>
         </Container>

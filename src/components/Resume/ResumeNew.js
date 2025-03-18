@@ -23,7 +23,7 @@ function ResumeNew() {
   }, []);
 
   // Função para determinar o tamanho da imagem baseado na largura da janela
-  const imageSize = width > 800 ? "60%" : width > 500 ? "75%" : "100%";
+  const imageSize = width > 800 ? "45%" : width > 500 ? "65%" : "75%";
 
   return (
     <div>
