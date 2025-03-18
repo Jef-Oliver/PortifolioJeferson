@@ -24,7 +24,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              especializado na criação e manutenção de sistemas robustos e escaláveis. Trabalho com desenvolvimento de APIs, otimização de performance e 
+              Especializado na criação e manutenção de sistemas robustos e escaláveis. Trabalho com desenvolvimento de APIs, otimização de performance e 
               integração de bancos de dados, sempre focado em eficiência, segurança e boas práticas de desenvolvimento.&nbsp;
               <br />
               <br />

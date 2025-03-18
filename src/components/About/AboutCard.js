@@ -8,12 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Olá pessoal, eu sou <span className="purple">Jeferson Oliveira </span>
-            moro em <span className="purple">Palmas-TO</span>
-            <br />
-            Atualmente trabalho como desenvolvedor backend na Secretaria da Administração-TO.
-            <br />
-            Concluí minha graduação em Sistemas para Internet no IFTO-Campus Palmas.
+          Esse site nasceu como um desafio de uma disciplina da faculdade. A ideia era sair da zona de conforto e desenvolver algo usando uma tecnologia diferente
+          da que a gente costumava programar (no caso, <b className="purple">Java</b>). <br/>A proposta era explorar novas ferramentas de <b className="purple">desenvolvimento web</b> e 
+          apresentar o projeto no final da matéria. Foi aí que decidi criar esse <b className="purple">portfólio</b> usando <b className="purple">React Native</b>. 
+          No começo, era só um trabalho para nota, mas acabou se tornando algo muito maior. Mesmo depois de formado, continuei adaptando e evoluindo o projeto, 
+          e ele segue me acompanhando na minha jornada como dev. <br/>Hoje, mais do que um simples portfólio, esse projeto representa minha evolução e aprendizado. E a melhor parte? 
+          Sempre tem algo novo pra melhorar!
             <br />
             <br />
             Além da programação em si, estudo também...

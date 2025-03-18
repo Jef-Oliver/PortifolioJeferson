@@ -9,7 +9,9 @@ import {
   SiCss3,
   SiHibernate,
   SiApachemaven,
-  SiAndroidstudio
+  SiAndroidstudio,
+  SiReact,
+  SiNodedotjs
 } from 'react-icons/si';
 
 function Toolstack() {
@@ -82,6 +84,20 @@ function Toolstack() {
           placement="top"
           overlay={renderTooltip('AndroidStudio')}>
           <div><SiAndroidstudio /></div>
+        </OverlayTrigger>
+      </Col> 
+      <Col xs={4} md={2} className="tech-icons">
+        <OverlayTrigger
+          placement="top"
+          overlay={renderTooltip('NodeJS')}>
+          <div><SiNodedotjs /></div>
+        </OverlayTrigger>
+      </Col> 
+      <Col xs={4} md={2} className="tech-icons">
+        <OverlayTrigger
+          placement="top"
+          overlay={renderTooltip('React')}>
+          <div><SiReact /></div>
         </OverlayTrigger>
       </Col> 
     </Row>
