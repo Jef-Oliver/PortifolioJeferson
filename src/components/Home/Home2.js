@@ -14,8 +14,8 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              DEIXE-ME<span className="purple"> APRESENTAR </span> A VOCÊ
+            <h1 style={{ fontSize: "4.6em" }}>
+              Sobre<span className="purple"> mim </span> 
             </h1>
             <p className="home-about-body">
               <br />Desenvolvedor com experiência em: 
