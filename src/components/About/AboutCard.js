@@ -31,8 +31,8 @@ function AboutCard() {
 
             <p>
               Meu foco é <b className="purple">desenvolver soluções que agreguem valor real ao usuário</b>. <br />
-              E a melhor parte? <b className="purple">Sempre há algo novo para aprender e melhorar!</b>
-            </p>          
+              <i>E a melhor parte? <b className="purple">Sempre há algo novo para aprender e melhorar!🚀</b></i>
+            </p>         
           </p>
         </blockquote>
       </Card.Body>

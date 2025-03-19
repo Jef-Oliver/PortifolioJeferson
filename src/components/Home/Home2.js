@@ -40,9 +40,6 @@ function Home2() {
               Durante minha formação, tive contato com projetos práticos e metodologias modernas, aprimorando minha capacidade de solucionar problemas e construir sistemas eficientes.
             </p>
             <br />
-            <i>
-            🚀 Apaixonado por tecnologia, inovação e aprendizado contínuo.
-            </i>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -52,10 +49,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>SIGA-ME EM</h1>
-            <p>
-              Sinta-se a vontade para se <span className="purple">conectar </span>comigo
-            </p>
+            <h1>Follow-me</h1>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
