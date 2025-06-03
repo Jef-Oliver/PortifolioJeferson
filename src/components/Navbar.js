@@ -54,14 +54,13 @@ function NavBar() {
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Início
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Sobre
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Sobre este Portfólio
               </Nav.Link>
             </Nav.Item>
 

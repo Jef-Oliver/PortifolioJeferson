@@ -3,42 +3,69 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/cv-jeferson.pdf";
-import image from "../../Assets/jeferson.png"; // Caminho da imagem corrigido
+import image1 from "../../Assets/jeferson.png";
+import image2 from "../../Assets/jeferson1.png"; 
+import image3 from "../../Assets/jeferson2.png";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function ResumeNew() {
-  const [width, setWidth] = useState(null); // Inicialize como null para definir após montagem
+  const [width, setWidth] = useState(null); 
 
   useEffect(() => {
     const updateWidth = () => {
-      setWidth(window.innerWidth); // Atualiza o estado com a largura atual da janela
+      setWidth(window.innerWidth);
     };
 
-    updateWidth(); // Chama imediatamente para definir o estado inicial corretamente
-    window.addEventListener('resize', updateWidth); // Adiciona listener para redimensionamentos
+    updateWidth();
+    window.addEventListener('resize', updateWidth);
 
     return () => {
-      window.removeEventListener('resize', updateWidth); // Limpa o listener ao desmontar
+      window.removeEventListener('resize', updateWidth);
     };
   }, []);
 
-  // Função para determinar o tamanho da imagem baseado na largura da janela
   const imageSize = width > 800 ? "45%" : width > 500 ? "65%" : "75%";
 
   return (
     <div>
       <Container fluid className="resume-section">
         <Particle />
+        {/* Primeira imagem */}
         <Row style={{ justifyContent: "center", position: "relative", padding: "20px" }}>
-          {width && ( // Só renderiza a imagem quando width está definido
+          {width && (
             <img
-              src={image}
-              alt="Currículo Jeferson"
+              src={image1}
+              alt="Currículo Jeferson 1"
               style={{ width: imageSize, height: "auto" }}
-              loading="lazy"  // Lazy loading nativo aplicado
+              loading="lazy"
             />
           )}
         </Row>
+        
+        {/* Segunda imagem */}
+        <Row style={{ justifyContent: "center", position: "relative", padding: "20px" }}>
+          {width && (
+            <img
+              src={image2}
+              alt="Currículo Jeferson 2"
+              style={{ width: imageSize, height: "auto" }}
+              loading="lazy"
+            />
+          )}
+        </Row>
+        
+        {/* Terceira imagem */}
+        <Row style={{ justifyContent: "center", position: "relative", padding: "20px" }}>
+          {width && (
+            <img
+              src={image3}
+              alt="Currículo Jeferson 3"
+              style={{ width: imageSize, height: "auto" }}
+              loading="lazy"
+            />
+          )}
+        </Row>
+        
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"

@@ -14,31 +14,16 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "4.6em" }}>
-              Sobre<span className="purple"> mim </span> 
-            </h1>
             <p className="home-about-body">
-              <br />Desenvolvedor com experiência em: 
-              <i>
-                <b className="purple"> Python, Django, Flask, PostgreSQL e IA  </b>
-              </i>
-              <br />
-              <br />
-              Especializado na criação e manutenção de sistemas robustos e escaláveis. Trabalho com desenvolvimento de APIs, otimização de performance e 
-              integração de bancos de dados, sempre focado em eficiência, segurança e boas práticas de desenvolvimento.&nbsp;
-              <br />
-              <br />
-              Atualmente, atuo no desenvolvimento e aprimoramento de sistemas <b className="purple">backend</b>, garantindo estabilidade, desempenho e escalabilidade para diferentes aplicações. 
-              Possuo experiência com modernização de sistemas legados, além de otimizações para <b className="purple">bancos de dados </b><b className="purple">SQL</b>.
-              <br />
-              <br />
-              Tenho conhecimento em <b className="purple">Inteligência Artificial</b> aplicada ao desenvolvimento, além de experiência com metodologias ágeis como <b className="purple">Scrum</b>. 
-              Gosto de explorar novas tecnologias e estou sempre em busca de desafios que me permitam crescer profissionalmente.
-              <br />
-              <br />
-              Sou formado em <b className="purple">Sistemas para Internet</b>, tive uma base sólida em <b className="purple">Java, Spring Boot, HTML, CSS, JavaScript e desenvolvimento mobile. </b> 
-              Durante minha formação, tive contato com projetos práticos e metodologias modernas, aprimorando minha capacidade de solucionar problemas e construir sistemas eficientes.
+              <strong>Analista de Sistemas | Desenvolvedor Backend</strong> apaixonado por transformar desafios complexos em soluções tecnológicas eficientes. Com mais de 4 anos de experiência dedicados à <strong>modernização de sistemas corporativos</strong>, especialmente na área de <strong>gestão de ponto e RH</strong>, meu foco é combinar profundo conhecimento técnico com uma compreensão clara das regras de negócio.
             </p>
+            <p className="home-about-body">
+              Minha trajetória inclui a liderança na evolução de sistemas legados críticos, como o <strong>Webponto (ASP Clássico)</strong>, introduzindo tecnologias modernas como <strong>Python (Django/Flask)</strong> e <strong>Inteligência Artificial</strong> (para reconhecimento facial e automação), além de otimizações significativas em bancos de dados <strong>PostgreSQL</strong> que resultaram em melhorias drásticas de performance.
+            </p>
+            <p className="home-about-body">
+              Sou especialista em <strong>arquitetura de sistemas backend</strong>, desenvolvimento de <strong>APIs RESTful</strong> e integração de bancos de dados, sempre buscando soluções <strong>escaláveis, seguras e de alta performance</strong>. Acredito no poder da tecnologia para otimizar processos e na importância do <strong>aprendizado contínuo</strong> para me manter atualizado com as últimas inovações.
+            </p>
+
             <br />
             <i>
             🚀 Apaixonado por tecnologia, inovação e aprendizado contínuo.
