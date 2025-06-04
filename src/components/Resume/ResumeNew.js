@@ -5,7 +5,6 @@ import Particle from "../Particle";
 import pdf from "../../Assets/cv-jeferson.pdf";
 import image1 from "../../Assets/jeferson.png";
 import image2 from "../../Assets/jeferson1.png"; 
-import image3 from "../../Assets/jeferson2.png";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function ResumeNew() {
@@ -30,19 +29,8 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        {/* Primeira imagem */}
-        <Row style={{ justifyContent: "center", position: "relative", padding: "20px" }}>
-          {width && (
-            <img
-              src={image1}
-              alt="Currículo Jeferson 1"
-              style={{ width: imageSize, height: "auto" }}
-              loading="lazy"
-            />
-          )}
-        </Row>
         
-        {/* Segunda imagem */}
+        
         <Row style={{ justifyContent: "center", position: "relative", padding: "20px" }}>
           {width && (
             <img
@@ -53,19 +41,18 @@ function ResumeNew() {
             />
           )}
         </Row>
-        
-        {/* Terceira imagem */}
+
         <Row style={{ justifyContent: "center", position: "relative", padding: "20px" }}>
           {width && (
             <img
-              src={image3}
-              alt="Currículo Jeferson 3"
+              src={image1}
+              alt="Currículo Jeferson 1"
               style={{ width: imageSize, height: "auto" }}
               loading="lazy"
             />
           )}
         </Row>
-        
+
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
